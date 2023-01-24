@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#page{
+display: flex;
+flex-direction: column;
+justify-items: start;
+align-items: baseline;
+background: rgb(237, 232, 232);
+}
+#search-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+}
+   
+/* #input-container{
+    margin-left: 3%;
+    display: flex;
+    height: 60%;
+width: 40%;
+background: white;
+border-radius: 60px;
+} */
+
+
+#form{
+    height: 100%;
+    width: 100%;
+
+}
+#search-input{
+    font-size: 28px;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+
+#gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* margin left:15%;  */
+    justify-content: space-between;
+
+
+   
+}
+#country-card{
+width: 19%;
+height: 210px;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+background: white;
+
+}
+
+.flag-div{
+    display: flex;
+   width: 100%;
+   height: 50%; 
+   margin: 0%;
+}
+
+#detail-div{
+    width: 100%;
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: white;
+
+}
+
+#specs-title-div{
+    background: white;
+    font-size: 18px;
+    margin-left: 10%;
+
+}
+#specs-list-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    margin-left: 10%;
+
+}
+
+#specs-div{
+    background: white;
+    font-size: 13px;
+
+}
+
+#one-country-container{
+    display: flex;
+    width: 100%;
+height: 210px;
+
+}
